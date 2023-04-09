@@ -1,0 +1,95 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #8cc3ffc0;
+    border-radius: 3em;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .input {
+    flex-grow: 1;
+    padding: 1em;
+    border: none;
+    border-radius: 1em;
+    margin: 1em;
+  }
+  
+  .add-button {
+    padding: 1em;
+    background-color: #dc4c5f;
+    color: #fff;
+    border: none;
+    border-radius: 2em;
+    margin-left: 8px;
+    cursor: pointer;
+    width: 25%;
+  }
+
+  .add-button:hover {
+    transition: 500ms;
+    transform: rotate(5deg);
+    background-color: #963643;
+  }
+  
+  .todo-list {
+    list-style-type: circle;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+
+  }
+  
+  .todo-text {
+    flex-grow: 1;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+  }
+  
+  .toggle-button,
+  .delete-button {
+    padding: 4px 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    cursor: pointer;
+
+  }
+
+  .toggle-button:hover {
+    background-color: #005cbe;
+    transition: 500ms;
+  }
+
+  
+  .delete-button {
+    background-color: #dc3545;
+  }
+
+  .delete-button:hover {
+    background-color: #ac2c39;
+    transition: 500ms;
+  }
+
+  .error::placeholder {
+    color: #dc3545;
+  }
